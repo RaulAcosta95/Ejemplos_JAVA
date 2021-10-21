@@ -8,12 +8,25 @@ package ejemplos;
  *
  * @author angelr.acosta
  */
-public class While {
+public class WhileYDoWhile {
+
     public static void main(String[] args) {
         int contador = 0;
-        while(contador<3){ //Mientras sea true
-            contador ++;
+
+        while (contador < 3) { //Mientras sea true
+            System.out.println("While");
+            contador++;
         }
+
         System.out.println(contador);
+
+        do {//Primera vez ejecuta
+            System.out.println("Do While");
+            contador--;
+        } while (contador > 0);//Vuelve a ejecutar mientras sea true
+
+        System.out.println(contador);
+
+        
     }
 }
