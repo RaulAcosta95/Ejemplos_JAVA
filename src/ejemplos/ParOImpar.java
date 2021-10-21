@@ -13,6 +13,7 @@ import java.util.Scanner;
 public class ParOImpar {
     public static void main(String[] args) {
                 Scanner consola = new Scanner(System.in);
+                System.out.println("Ingrese un número para saber si es par o impar");
                 int numero = Integer.parseInt(consola.nextLine());
                 
                 if(numero % 2 == 0){
